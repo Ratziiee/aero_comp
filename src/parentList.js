@@ -5,23 +5,15 @@ class ParentList extends Component {
 
     constructor(props){
         super(props);
-        this.state = {
-            data: ['user1', 'user2', 'user3', 'user4', 'user5'],
-            arr: [1,2]
-        }
+        this.state = {}
     }
 
-    handleChange = (data)=> {
-        alert('click done');
-    }
+    
 
     render() {
         return (
             <div>
-               { this.state.arr.map((value) => (
-                   <SimpleSelect data={this.state.data} /> 
-               )) }
-               <button onClick={this.handleChange}>Click</button>
+               <SimpleSelect  /> 
             </div>
         );
     }
