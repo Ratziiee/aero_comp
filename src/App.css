@@ -31,3 +31,21 @@
     transform: rotate(360deg);
   }
 }
+.inline{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10vw;
+  margin-top: 10vh
+}
+
+.inline div {
+  margin-left: 20px;  
+}
+
+.MuiFormControl-root{
+  width: 25vw;
+}
+
+SimpleSelect{
+  background-color: red
+}
